@@ -62,7 +62,8 @@
                                     - floorf((scaledPoint.y * 0.8f + 0.1f)
                                              * contentSize.height) - 0.5f);
     if (!isFirstPoint) {
-      CGContextAddLineToPoint(context, plotPoint.x, plotPoint.y);
+//      CGContextAddL
+      ineToPoint(context, plotPoint.x, plotPoint.y);
     }
     CGContextMoveToPoint(context, plotPoint.x, plotPoint.y);
     isFirstPoint = NO;
